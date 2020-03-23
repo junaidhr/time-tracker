@@ -27,7 +27,7 @@ public class Tracker {
         return entries.size();
     }
 
-//     public TimeEntry get(int index) {
+    public TimeEntry get(final int index) { //added final
 //         try {
 
 //         } catch (Exception e) {
